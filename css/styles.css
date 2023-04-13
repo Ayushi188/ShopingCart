@@ -13,9 +13,8 @@ body{
 }
 
 .pheader h1{
-    color: black;
-    text-shadow: 0 0 10px red;
-    font-size: 40px;
+    color: rgb(21, 24, 15);
+    font-size: 60px;
     margin: 0;
 }
 
@@ -38,15 +37,15 @@ body{
 }
 
 .fa-solid {
-    color: black;
+    color: #f9f508ed;
   }
 
 a.button {
     border-radius: 10px;
     padding: 15px;
-    background-color: #390439;
+    background-color: #faf738ed;
     font-size: 20px;
-    color: white;
+    color: rgb(11, 5, 5);
 }
 
 .category li{
@@ -54,7 +53,7 @@ a.button {
 }
 
 .category a:visited,a:active,a:link {
-    color: black;
+    color: #faf738ed;
 }
 
 .category a:hover{
@@ -63,7 +62,7 @@ a.button {
 }
 
 .news{
-    background-color: blueviolet;
+    background-color: #faf738ed;
 }
 
 .news h3 {
@@ -160,34 +159,4 @@ a.button {
     position: relative;
     margin-left: -45px;
     z-index: 100;
-}
-
-.cart-items {
-    margin: 10px 30px;
-}
-.cart-items img{
-    display: inline;
-    width: 10%;
-    height: auto;
-    margin: 10px 30px;
-}
-
-.cart-items h3{
-    display: inline;
-    margin: 10px 30px;
-}
-
-.cart-items p{
-    display: inline;
-    margin: 10px 30px;
-}
-
-.cart-items input{
-    display: inline;
-    margin: 10px 30px;
-}
-
-.cart-items button{
-    display: inline;
-    margin: 10px 30px;
 }
